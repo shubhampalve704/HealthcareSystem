@@ -472,7 +472,7 @@ nav {
   z-index: 2;
 }
 nav .logo {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   align-items: center;
   font-size: 2rem;
@@ -494,7 +494,7 @@ nav .navLinks .links a {
   color: #222;
   font-size: 20px;
   font-weight: 600;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.2px;
 }
 nav .navLinks .links a:hover {
   color: #000;

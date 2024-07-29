@@ -43,7 +43,7 @@ const Footer = () => {
         <hr />
         <div className="content">
           <div>
-            <img src="/logo.png" alt="logo" className="logo-img"/>
+            <a href="/"><img src="/logo.png" alt="logo" className="logo-img"/></a>
           </div>
           <div>
             <h4>Quick Links</h4>
@@ -68,11 +68,11 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>9623836500</span>
+              <span>7741908359</span>
             </div>
             <div>
               <MdEmail />
-              <span>arogyaconnect@gmail.com</span>
+              <p>arogyaconnect@gmail.com</p>
             </div>
             <div>
               <FaLocationArrow />

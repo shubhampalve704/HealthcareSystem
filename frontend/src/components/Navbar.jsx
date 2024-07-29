@@ -32,9 +32,9 @@ const Navbar = () => {
   return (
     <>
       <nav className={"container"}>
-        <div className="logo">
+        <a className="logo" href="/">
           <img src="/logo.png" alt="logo" className="logo-img" />
-        </div>
+        </a>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             <Link to={"/"} onClick={() => setShow(!show)}>
@@ -46,12 +46,10 @@ const Navbar = () => {
             <Link to={"/about"} onClick={() => setShow(!show)}>
               About Us
             </Link>
-            <Link to={"http://localhost:8501/"} onClick={() => setShow(!show)}>
+            <Link to={"/HealthBuddy"} onClick={() => setShow(!show)}>
               Health Buddy
             </Link>
-            <Link to={"http://192.168.38.178"} onClick={() => setShow(!show)}>
-              Monitoring
-            </Link>
+           
           </div>
           {isAuthenticated ? (
             <button className="logoutBtn btn" onClick={handleLogout}>

@@ -8,6 +8,7 @@ const Appointment = () => {
       <Hero
         title={"Schedule Your Appointment | Aarogya Connect"}
         imageUrl={"/signin.png"}
+        
       />
       <AppointmentForm/>
     </>

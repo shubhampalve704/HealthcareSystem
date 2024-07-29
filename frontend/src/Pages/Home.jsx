@@ -12,6 +12,7 @@ const Home = () => {
           "Welcome to Aarogya Connect | Your Trusted Healthcare Provider"
         }
         imageUrl={"/hero.png"}
+      
       />
       <Biography imageUrl={"/about.png"} />
       <Departments />

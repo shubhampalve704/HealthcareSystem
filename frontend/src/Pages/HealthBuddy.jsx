@@ -2,14 +2,13 @@ import React from "react";
 import Hero from "../components/Hero";
 import Biography from "../components/Biography";
 import TeamMember from "../components/TeamMember";
-const AboutUs = () => {
+const HealthBuddy = () => {
   return (
     <>
       <Hero
-        title={"Learn More About Us | Aarogya Connect"}
-        imageUrl={"/about.png"}
+        title={"HealthBuddy is Comming Soon | Stay Tuned"}
+        imageUrl={"/commingSoon.jpg"}     
       />
-      <Biography imageUrl={"/whoweare.png"} />
      
       <div className="team-page">
       <h2>Our Team</h2>
@@ -26,4 +25,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default HealthBuddy;
